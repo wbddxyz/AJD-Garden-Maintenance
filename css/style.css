@@ -286,6 +286,7 @@ a {
   display:flex;
   flex-direction:column;
   justify-content: flex-start;
+  background-image:url(../images/grass.svg);
   
 }
 
@@ -315,12 +316,17 @@ ul {
 
  
   font-size: 2rem;
+  text-shadow: 2px 2px 2px inset #043025 ;
 
 
 
 
 
   
+}
+
+.header p{
+  color:#fafafa;
 }
 
 .move-buttons {
@@ -424,6 +430,19 @@ p {
   color:black;
 }
 
+
+.footer{
+  
+  justify-content: flex-end;
+  display:flex;
+  align-content:center;
+  justify-content: center;
+  margin-top:30px;
+  background-image: url(../images/grass.svg);
+  width:100vw;
+  color:#fafafa;
+  
+}
 
 
 
